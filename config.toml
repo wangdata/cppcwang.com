@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 
 title = "Hugo Learn Documentation"
 theme = "hugo-theme-learn"
-themesdir = "../.."
+#themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
@@ -73,3 +73,9 @@ weight = 20
 name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
 url = "/credits"
 weight = 30
+
+[submodule "themes/hugo-theme-learn"]
+path = "themes/hugo-theme-learn"
+url = "../hugo-theme-learn.git"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
